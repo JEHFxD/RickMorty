@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Matemasie&display=swap');
+
+:root {
+  --principal-font-family: "Matemasie", sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #fff;
+}
+
+body {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+header {
+  background-color: #020229;
+  width: 100vw;
+  height: 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: double 2px #fff;
+  font-family: var(--principal-font-family);
+  color: #3eeb1b;
+  text-shadow: 0 0 10px yellow;
+}
+
+main {
+  width: 100%;
+  height: auto;
+  display: flex;
+  background-color: #222;
+  flex-direction: column;
+  align-items: center;  
+  padding: 0.5rem;
+}
+
+main > .cards {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.card {
+  width: 20rem;
+  height: 10rem;
+  border-radius: 5px;
+  border: double 4px #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card > img {
+  width: 40%;
+  height: 100%;
+  background-color: #444645;
+  text-align: center;
+  padding-top: 1rem;
+  font-size: 1.5rem;
+}
+
+.card > h2 {
+  width: 60%;
+  height: 100%;
+  background-color: #250e25;
+  text-align: center;
+  padding-top: 1rem;
+  font-size: 1.5rem;
+}
+
+input[type="search"] {
+  font-size: 1em;
+  padding: 10px;
+  margin: 20px;
+  border: 2px solid #250e25;
+  border-radius: 5px;
+  background-color: #250e25;
+}
